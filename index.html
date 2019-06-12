@@ -11,7 +11,7 @@
 
    $.getJSON('TS.json', function(data) {
        $.each(data.scene, function(i, f) {
-           console.log("TESTING");
+           console.log(f.name);
 //           var tblRow = "<tr>" + "<td>" + f.name + "</td>" +  "<td>" + f.actor + "</td>" + "<td>" + f.site + "</td>" + "<td>" + f.date + "</td>" + "</tr>";
 //          $(tblRow).appendTo("#userdata tbody");          
      });
