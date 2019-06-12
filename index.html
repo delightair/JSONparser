@@ -13,7 +13,7 @@
        $.each(data.scene, function(i, f) {
            var tblRow = "<tr>" + "<td><img src=" + f.image + "></td>" + "<td>" + f.name + "</td>" +  "<td>" + f.actor + "</td>" + "<td>" + f.site + "</td>" + "<td>" + f.date + "</td>" + "</tr>"
            $(tblRow).appendTo("#userdata tbody");          
-           console.log(f.date + " " + LocalDate.parse(f.date)
+           console.log(f.date + " " + LocalDate.parse(f.date));
      });
 
    });
